@@ -1,0 +1,23 @@
+# language
+#like a "language: "en_en" "
+language: "en_en"
+
+# Plugin prefix for messages (supports MiniMessage format)
+# Examples:
+# - "<light_purple>[<dark_purple>Resize</dark_purple>]</light_purple> " (default)
+# - "<gradient:red:blue>[Resize]</gradient> "
+# - "<#ff6b6b>[<#4ecdc4>Resize</#4ecdc4>]</#ff6b6b> "
+prefix: "<light_purple>[<dark_purple>Resize</dark_purple>]</light_purple> "
+# Minimum and maximum scale for normal players
+default_min_scale: 0.8
+default_max_scale: 1.15
+
+# Minimum and maximum scale for players with resizeplugin.resize.extended permission
+extended_min_scale: 0.0625
+extended_max_scale: 16.0
+
+# Time to wait in seconds before reusing the command if the bypass.cooldown permission is not present
+cooldown_seconds: 30
+
+# The number of steps in which the size will be smoothly changed
+resize_steps: 20

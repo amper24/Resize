@@ -1,0 +1,31 @@
+name: ResizeReworked
+main: dev.moonaticks.resizeReworked.ResizeReworked
+version: 1.2.0
+author: Moonaticks
+api-version: 1.21.1
+description: A plugin that allows players to resize themselves or other players with smooth transitions over one second.
+
+commands:
+  resize:
+    description: Change the size of yourself or another player.
+    usage: /resize <size> [player] | /resize reload
+    aliases: [res]
+    permission: resizeplugin.resize
+    permission-message: "§4You do not have permission to use this command."
+
+permissions:
+  resizeplugin.resize:
+    description: Allows using /resize to change player size.
+    default: true
+  resizeplugin.resize.extended:
+    description: Allows extended size range (0.0625 to 16).
+    default: op
+  resizeplugin.resize.others:
+    description: Allows changing the size of other players.
+    default: op
+  resizeplugin.bypass.cooldown:
+    description: Allows bypassing the cooldown for /resize command.
+    default: op
+  resizeplugin.reload:
+    description: Allows reloading the plugin's configuration and language files.
+    default: op

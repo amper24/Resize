@@ -1,0 +1,10 @@
+messages:
+  config_reloaded: "<green>Конфигурация успешно перезагружена.</green>"
+  player_not_found: "<red>Игрок с именем <yellow>%player%</yellow> не найден.</red>"
+  only_player: "<red>Только игроки могут использовать эту команду.</red>"
+  invalid_number: "<red>Неверный формат числа. Пожалуйста, введите корректное число.</red>"
+  usage: "<red>Использование: /resize <scale> [игрок]</red>"
+  scale_range: "<red>Масштаб должен быть между <yellow>%min%</yellow> и <yellow>%max%</yellow>.</red>"
+  cooldown: "<red>Необходимо подождать <yellow>%time%</yellow> секунд перед повторным использованием команды.</red>"
+  resized: "<green>Ваш размер установлен на <yellow>%scale%</yellow>.</green>"
+

@@ -1,0 +1,10 @@
+messages:
+  config_reloaded: "<green>Configuration reloaded successfully.</green>"
+  player_not_found: "<red>Player with name <yellow>%player%</yellow> not found.</red>"
+  only_player: "<red>Only players can use this command.</red>"
+  invalid_number: "<red>Invalid number format. Please enter a valid number.</red>"
+  usage: "<red>Usage: /resize <scale> [player]</red>"
+  scale_range: "<red>Scale must be between <yellow>%min%</yellow> and <yellow>%max%</yellow>.</red>"
+  cooldown: "<red>You must wait <yellow>%time%</yellow> seconds before using this command again.</red>"
+  resized: "<green>Your size has been set to <yellow>%scale%</yellow>.</green>"
+
